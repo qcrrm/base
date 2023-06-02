@@ -19,6 +19,10 @@
         <spring-context.version>5.3.27</spring-context.version>
         <swagger-annotations.version>1.6.8</swagger-annotations.version>
         <jakarta.validation-api.version>3.0.2</jakarta.validation-api.version>
+        <hutool.version>5.8.11</hutool.version>
+        <mapstruct.version>1.4.2.Final</mapstruct.version>
+        <lombok.version>1.18.26</lombok.version>
+        <hutool.version>5.8.11</hutool.version>
     </properties>
 
     <dependencies>
@@ -76,6 +80,22 @@
             <artifactId>jakarta.validation-api</artifactId>
             <version>${jakarta.validation-api.version}</version>
             <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>${hutool.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mapstruct</groupId>
+            <artifactId>mapstruct</artifactId>
+            <version>${mapstruct.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mapstruct</groupId>
+            <artifactId>mapstruct-processor</artifactId>
+            <version>${mapstruct.version}</version>
         </dependency>
     </dependencies>
 
